@@ -7,8 +7,8 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav className="py-7 px-7">
-      <div className="container flex justify-between items-center">
+    <nav className="py-7">
+      <div className="container max-w-screen-xxl xxl:px-24 flex justify-between items-center">
         <div>
           <img src="/Logo.png" alt="Logo.png" />
         </div>
