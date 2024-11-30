@@ -10,7 +10,7 @@ const Browse = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
-        <div className="flex gap-5">
+        <div className="flex gap-5 justify-between">
           <div className="w-1/3 ">
             <img className="w-full" src="/home-img/dinning.png" alt="dinning" />
             <p className="text-2xl text-primary font-semibold font-Poppins text-center mt-8">

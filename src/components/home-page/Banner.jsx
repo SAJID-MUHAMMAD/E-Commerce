@@ -3,7 +3,7 @@ import Button from "../Button";
 
 const Banner = () => {
   return (
-    <section className="py-[150px] bg-[url('/home-img/banner.jpg')] bg-cover bg-no-repeat bg-center">
+    <section className="py-[150px] bg-[url('/home-img/banner.png')] bg-cover bg-no-repeat bg-center">
       <div className="container max-w-screen-xxl xxl:px-24">
         <div className="w-1/2 bg-[#FFF3E3] ml-auto pt-14 pb-9 px-10 rounded-xl">
           <h2 className="font-Poppins font-semibold text-base text-primary">
