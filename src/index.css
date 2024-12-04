@@ -11,20 +11,20 @@
   @apply text-xl font-Poppins text-secondary font-normal;
 }
 .explore .slick-active .slide_items {
-  @apply h-[486px];
+  @apply h-[486px] px-3;
 }
 .explore .slick-active.slick-current .slide_items {
   @apply h-[582px];
 }
 .explore .slick-slider {
-  @apply h-fit;
+  @apply h-[582px];
 }
 .explore .slick-slider .slick-dots {
   display: flex !important;
   @apply gap-5;
 }
 .explore .slick-slider .slick-dots {
-  @apply absolute bottom-8 left-1/2;
+  @apply absolute bottom-8 left-[52%];
 }
 .explore .slick-slider .slick-dots li button {
   @apply text-[0px] w-3 h-3 rounded-full bg-[#D8D8D8];

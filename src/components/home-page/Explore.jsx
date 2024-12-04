@@ -31,10 +31,18 @@ const Explore = () => {
               <img src="/home-img/slide.png" className="w-full h-full" alt="" />
             </div>
             <div className="slide_items">
-              <img src="/home-img/slide.png" className="w-full h-full" alt="" />
+              <img
+                src="/home-img/slide2.png"
+                className="w-full h-full"
+                alt=""
+              />
             </div>
             <div className="slide_items">
-              <img src="/home-img/slide.png" className="w-full h-full" alt="" />
+              <img
+                src="/home-img/slide3.png"
+                className="w-full h-full"
+                alt=""
+              />
             </div>
           </Slider>
         </div>
