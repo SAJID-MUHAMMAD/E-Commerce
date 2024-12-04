@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../Button";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
+import NextArrow from "./NextArrow";
 const Explore = () => {
   var settings = {
     dots: true,
@@ -9,10 +10,13 @@ const Explore = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <span></span>,
   };
+
   return (
-    <section className="mb-16 py-11 bg-[#FCF8F3]">
-      <div className="container max-w-screen-xxl xxl:px-24 flex gap-10">
+    <section className="mb-16 py-11 bg-[#FCF8F3] explore">
+      <div className="container max-w-screen-xxl xxl:px-24 flex gap-10 items-center">
         <div className="w-1/3">
           <h2 className="title">50+ Beautiful rooms inspiration</h2>
           <p className="details pt-2 pb-6">
@@ -23,14 +27,14 @@ const Explore = () => {
         </div>
         <div className="w-2/3">
           <Slider {...settings}>
-            <div>
-              <img src="/home-img/slide.png" className="w-full" alt="" />
+            <div className="slide_items">
+              <img src="/home-img/slide.png" className="w-full h-full" alt="" />
             </div>
-            <div>
-              <img src="/home-img/slide.png" className="w-full" alt="" />
+            <div className="slide_items">
+              <img src="/home-img/slide.png" className="w-full h-full" alt="" />
             </div>
-            <div>
-              <img src="/home-img/slide.png" className="w-full" alt="" />
+            <div className="slide_items">
+              <img src="/home-img/slide.png" className="w-full h-full" alt="" />
             </div>
           </Slider>
         </div>

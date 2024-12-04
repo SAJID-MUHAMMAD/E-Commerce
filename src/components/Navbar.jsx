@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <nav className="py-7">
       <div className="container max-w-screen-xxl xxl:px-24 flex justify-between items-center">
-        <div>
+        <Link to="/">
           <img src="/Logo.png" alt="Logo.png" />
-        </div>
+        </Link>
         <ul className="flex items-center gap-[75px] font-Poppins  text-lg font-medium text-black">
           <li>
             <Link to="/">Home</Link>
