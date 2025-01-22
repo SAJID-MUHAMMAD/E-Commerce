@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Banner from "../components/shop-page/Banner";
 
 const Shop = () => {
   return (
-    <div>Shop</div>
-  )
-}
+    <>
+      <Banner />
+    </>
+  );
+};
 
-export default Shop
+export default Shop;
